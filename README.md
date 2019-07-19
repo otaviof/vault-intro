@@ -204,7 +204,7 @@ pgcli --host 127.0.0.1 --username v-token-intro-D7dCgYF09qgh8PD7NyDf-1563530392 
 ## Retrieving Secrets
 
 In order to automate the process of Vault authentication and data retrieval, we have a number of
-tooling to consider. Most of them are employed as a `init-container` in Kubernetes, so they would run
+options to consider. Most of them are employed as a `init-container` in Kubernetes, so they would run
 before the actual application to download sensitive data, and the application would then read from a
 shared location.
 
@@ -212,6 +212,11 @@ So please consider the following links:
 
 - https://github.com/UKHomeOffice/vault-sidekick
 - https://github.com/otaviof/vault-handler
+
+Other solutions you can found out there, is adirect integration between application and Vault,
+therefore as part of the application configuration you will find Vault related items. Ideally, the
+application does not need to know about Vault, you can decouple this dependency by using external
+components.
 
 [vault]: https://www.vaultproject.io
 [pgcli]: https://pgcli.com/
