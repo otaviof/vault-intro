@@ -105,7 +105,7 @@ from time to time, or renew.
 ### AppRole
 
 Vault also ships with AppRole authentication. The objective of this method is to identify machines or
-applications individually, therefore you issue a pair of identifiers that in combination, can issue a
+applications individually, therefore you need a pair of identifiers that in combination, can issue a
 token, which is bounded to the policy and expiration period directives configured for that specific
 `approle` application.
 
