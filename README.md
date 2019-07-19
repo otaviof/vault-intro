@@ -11,7 +11,7 @@ Make sure all of them are available before starting playing with the examples in
 
 ## Vault Examples
 
-Before you start, make sure Vault and PostgreSQL are up and running, by:
+Lets start Vault and PostgreSQL, with:
 
 ``` bash
 docker-compose up
