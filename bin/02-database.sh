@@ -1,7 +1,5 @@
 #/bin/bash
 
-set -x
-
 function die () {
     echo "[ERROR] ${*}" 1>&2
     exit 1
