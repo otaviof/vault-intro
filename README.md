@@ -211,6 +211,7 @@ shared location.
 So please consider the following links:
 
 - https://github.com/UKHomeOffice/vault-sidekick
+- https://github.com/Boostport/kubernetes-vault
 - https://github.com/otaviof/vault-handler
 
 Other solutions you can found out there, is adirect integration between application and Vault,
