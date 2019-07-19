@@ -14,7 +14,7 @@ Make sure all of them are available before starting playing with the examples in
 Lets start Vault and PostgreSQL, with:
 
 ``` bash
-docker-compose up
+docker-compose up -d
 ```
 
 And then you can already run the boostrap script:
